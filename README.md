@@ -1,5 +1,7 @@
 # nix-puppeteer
 
+[![Build Status][Travis badge]][Travis link]
+
 *[Nix][1]-based [Docker][2] image with [Puppeteer][3]*
 
 ## Build Docker Image
@@ -31,6 +33,8 @@ docker run --rm \
 
 <!-- Named Links -->
 
+[Travis badge]: https://travis-ci.org/yurrriq/nix-puppeteer.svg?branch=master
+[Travis link]: https://travis-ci.org/yurrriq/nix-puppeteer
 [1]: https://nixos.org/nix/
 [2]: https://www.docker.com/
 [3]: https://github.com/GoogleChrome/puppeteer/
