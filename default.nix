@@ -96,7 +96,7 @@ in
 
     installPhase = ''
       makeWrapper ${example}/bin/example $out/bin/example \
-        --set FONTCONFIG_FILE '${FONTCONFIG_FILE}' \
+        --set FONTCONFIG_FILE '${fontsConf}' \
         --set NODE_PATH '${NODE_PATH}'
     '';
 
