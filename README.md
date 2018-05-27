@@ -12,6 +12,14 @@ docker load <(nix-build -A docker --no-out-link)
 
 ## Example
 
+### Nix Shell
+
+```fish
+nix-shell -A drv --pure --run 'mkdir -p docs; cd $_; example'
+```
+
+### Docker
+
 Create the `docs` directory and make sure the `pptuser` can write to it.
 
 ```fish
